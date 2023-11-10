@@ -1,6 +1,6 @@
 import os,sys,shutil
 from distutils.core import setup, Extension
-from Cython.Build import cythonize
+from python.Build import cythonize
 
 class Main:
 	def __init__(self):
